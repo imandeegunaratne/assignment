@@ -1,14 +1,8 @@
-def greet():
-    name = input("Enter your name: ")
-    print(f"Hello, {name}! Welcome to Git.")
-
-if __name__ == "__main__":
-    greet()
-
 import datetime
 
 def greet():
     name = input("Enter your name: ")
+    age = int(input("Enter your age: "))
     current_hour = datetime.datetime.now().hour
 
     if current_hour < 12:
