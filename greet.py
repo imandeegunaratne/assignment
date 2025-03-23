@@ -13,6 +13,8 @@ def greet():
         greeting = "Good evening"
 
     print(f"{greeting}, {name}! Welcome to Git.")
+    age_message = "Enjoy life!" if age < 18 else "Make the most of your time!"
+    print(f"{greeting}, {name}! {age_message}")
 
 if __name__ == "__main__":
     greet()
